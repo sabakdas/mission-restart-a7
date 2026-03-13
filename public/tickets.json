@@ -2,109 +2,109 @@
   {
     "id": "TCK-001",
     "title": "Login page not loading",
-    "description": "Customer reports that the login page shows a blank screen after submitting credentials.",
+    "description": "Users see a blank screen after entering credentials. The login form does not submit properly.",
     "customer": "Acme Corp",
-    "priority": "High",
+    "priority": "HIGH PRIORITY",
     "status": "Open",
-    "createdAt": "2026-03-10T09:15:00Z"
+    "createdAt": "03-10-2025"
   },
   {
     "id": "TCK-002",
     "title": "Payment gateway timeout",
-    "description": "Transactions are failing due to timeout errors during payment processing.",
+    "description": "Payments fail during checkout. The system shows a timeout error while processing transactions.",
     "customer": "BrightTech Ltd",
-    "priority": "Critical",
-    "status": "In Progress",
-    "createdAt": "2026-03-10T11:40:00Z"
+    "priority": "CRITICAL PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "03-10-2025"
   },
   {
     "id": "TCK-003",
     "title": "Unable to reset password",
-    "description": "Password reset email link redirects to an invalid page.",
+    "description": "Password reset link does not work. Users are redirected to an invalid or expired page.",
     "customer": "Nova Solutions",
-    "priority": "Medium",
+    "priority": "MEDIUM PRIORITY",
     "status": "Open",
-    "createdAt": "2026-03-09T15:22:00Z"
+    "createdAt": "03-09-2025"
   },
   {
     "id": "TCK-004",
     "title": "Dashboard data mismatch",
-    "description": "Sales metrics displayed on dashboard do not match exported reports.",
+    "description": "Sales numbers on the dashboard look incorrect. Exported reports show different values.",
     "customer": "GreenLeaf Inc",
-    "priority": "High",
-    "status": "In Progress",
-    "createdAt": "2026-03-09T10:05:00Z"
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "03-09-2025"
   },
   {
     "id": "TCK-005",
     "title": "Mobile app crashes on launch",
-    "description": "App crashes immediately after opening on Android devices.",
+    "description": "The mobile app closes immediately after opening. This happens mostly on Android devices.",
     "customer": "Skyline Retail",
-    "priority": "Critical",
+    "priority": "CRITICAL PRIORITY",
     "status": "Open",
-    "createdAt": "2026-03-08T18:33:00Z"
+    "createdAt": "03-08-2025"
   },
   {
     "id": "TCK-006",
     "title": "Email notifications delayed",
-    "description": "System notifications are being delivered 30–40 minutes late.",
+    "description": "System alerts arrive much later than expected. Most users receive them after 30 minutes.",
     "customer": "Urban Logistics",
-    "priority": "Medium",
+    "priority": "MEDIUM PRIORITY",
     "status": "Resolved",
-    "createdAt": "2026-03-08T08:55:00Z"
+    "createdAt": "03-08-2025"
   },
   {
     "id": "TCK-007",
     "title": "File upload failure",
-    "description": "Users cannot upload PDF files larger than 5MB.",
+    "description": "Users cannot upload large PDF files. Upload fails when the file exceeds 5MB.",
     "customer": "NextWave Media",
-    "priority": "High",
+    "priority": "HIGH PRIORITY",
     "status": "Open",
-    "createdAt": "2026-03-07T14:11:00Z"
+    "createdAt": "03-07-2025"
   },
   {
     "id": "TCK-008",
     "title": "Incorrect invoice generation",
-    "description": "Generated invoices show incorrect tax calculation.",
+    "description": "Generated invoices show wrong tax amounts. Customers reported calculation issues.",
     "customer": "BluePeak Finance",
-    "priority": "High",
-    "status": "In Progress",
-    "createdAt": "2026-03-07T09:27:00Z"
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "03-07-2025"
   },
   {
     "id": "TCK-009",
     "title": "Search results not accurate",
-    "description": "Product search returns unrelated items.",
+    "description": "Search returns unrelated products. Filters do not seem to apply correctly.",
     "customer": "Global Mart",
-    "priority": "Low",
+    "priority": "LOW PRIORITY",
     "status": "Open",
-    "createdAt": "2026-03-06T16:03:00Z"
+    "createdAt": "03-06-2025"
   },
   {
     "id": "TCK-010",
     "title": "API authentication error",
-    "description": "External API requests are failing with 401 unauthorized responses.",
+    "description": "External API calls fail with 401 errors. Authentication tokens appear invalid.",
     "customer": "DevCore Systems",
-    "priority": "Critical",
-    "status": "In Progress",
-    "createdAt": "2026-03-06T11:49:00Z"
+    "priority": "CRITICAL PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "03-06-2025"
   },
   {
     "id": "TCK-011",
     "title": "Profile image not updating",
-    "description": "Users cannot update their profile pictures; old images persist.",
+    "description": "Users upload new profile photos successfully. However, the old image still appears.",
     "customer": "Alpha Education",
-    "priority": "Low",
+    "priority": "LOW PRIORITY",
     "status": "Resolved",
-    "createdAt": "2026-03-05T13:37:00Z"
+    "createdAt": "03-05-2025"
   },
   {
     "id": "TCK-012",
     "title": "Session timeout too short",
-    "description": "Users are logged out after only 5 minutes of inactivity.",
+    "description": "Users are logged out too quickly. Sessions expire after only five minutes.",
     "customer": "MetroBank",
-    "priority": "Medium",
+    "priority": "MEDIUM PRIORITY",
     "status": "Open",
-    "createdAt": "2026-03-05T08:20:00Z"
+    "createdAt": "03-05-2025"
   }
 ]
