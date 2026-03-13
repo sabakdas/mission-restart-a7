@@ -4,8 +4,8 @@ const Hero = () => {
     return (
       <>
        <div className='bg-gray-100'>
-        <div className='flex w-11/12 mx-auto flex-1 justify-between py-10'>
-        <div className='bg-gradient-to-tl from-[#9F62F2] to-[#632EE3] border-0 rounded-md border-0 relative items-center w-fit'>  
+        <div className='flex w-11/12 mx-auto justify-between py-10'>
+        <div className='bg-gradient-to-tl w-[780px] h-auto from-[#9F62F2] to-[#632EE3] border-0 rounded-md border-0 relative items-center w-fit'>  
              
               <span className='flex'>
                  <img src={vector1} alt="" />
@@ -17,7 +17,7 @@ const Hero = () => {
                 </p>   
               </span>
         </div>
-        <div className='bg-gradient-to-tl from-[#00827A] to-[#54CF68] border-0 rounded-md border-0 relative items-center w-fit'>  
+        <div className='bg-gradient-to-tl w-[780px] h-auto from-[#00827A] to-[#54CF68] border-0 rounded-md border-0 relative items-center w-fit'>  
              
               <span className='flex'>
                  <img src={vector1} alt="" />

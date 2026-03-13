@@ -13,7 +13,7 @@ const Ticket = ({ticket}) => {
     return (
         
     <>
-        <div className="card w-96 bg-base-100 card-xs shadow-sm ">
+        <div className="card  bg-base-100 card-xs shadow-sm ">
             <div className="card-body">
                 <div className='flex justify-between'> 
                     <h1 className='card-title'>{ticket.title}</h1>
