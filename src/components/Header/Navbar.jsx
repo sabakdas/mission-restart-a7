@@ -16,7 +16,7 @@ const Navbar = () => {
     <li><a className=' no-underline hover:text-blue-500' href="">Download</a></li>    
     <li><a className=' no-underline hover:text-blue-500' href="">Contact</a></li>
     <button className="btn btn-active btn-primary text-white font-semibold
-    bg-gradient-to-tl from-[#9F62F2] to-[#632EE3] border-0">+ New Ticket</button>    
+    bg-linear-to-tl from-[#9F62F2] to-[#632EE3] border-0">+ New Ticket</button>    
   </div>
 </div>
 </>

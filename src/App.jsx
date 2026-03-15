@@ -1,6 +1,7 @@
 
 import { Suspense, useState } from 'react'
 import './App.css'
+ import { ToastContainer } from 'react-toastify';
 import CustomerTickets from './components/CutomerTickets/CustomerTickets'
 import Navbar from './components/Header/Navbar'
 import Hero from './components/Hero/Hero'
@@ -21,7 +22,7 @@ function App() {
      ></Hero>
 
       <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
-      
+
       <CustomerTickets 
       tickets={tickets}
       setTickets={setTickets}
@@ -30,6 +31,8 @@ function App() {
       taskStatus={taskStatus} 
       setTaskStatus={setTaskStatus}   t
       ticketsPromise={ticketsPromise} ></CustomerTickets></Suspense>
+
+    <ToastContainer />
     </>
   )
 }

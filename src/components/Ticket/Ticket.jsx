@@ -1,6 +1,7 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar,faCircle} from '@fortawesome/free-solid-svg-icons'
+import { toast } from 'react-toastify';
 
   
 
@@ -14,7 +15,7 @@ const Ticket = ({ticket,taskStatus,setTaskStatus}) => {
 
   const exists = taskStatus.find(available => available.id === ticket.id);
 
-  {exists ? alert("Already exists in task status"):setTaskStatus([...taskStatus,ticket])}
+  {exists ? toast("Already exists in task status"):setTaskStatus([...taskStatus,ticket])}
 
 }
      

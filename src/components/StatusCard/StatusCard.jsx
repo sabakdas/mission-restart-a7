@@ -1,8 +1,12 @@
 import React from 'react';
+import { toast } from 'react-toastify';
+
 
 const StatusCard = ({task,taskStatus,setTaskStatus,tickets,setTickets,resolvedTask,setResolvedTask}) => {
 
     const handleComplete = () =>{
+       const isConfirm = confirm("Are you sure to complete this ticket?"); 
+        if (!isConfirm) return;    
         const filterData = taskStatus.filter(data => data.id !== task.id);
         setTaskStatus(filterData);
 
@@ -11,7 +15,8 @@ const StatusCard = ({task,taskStatus,setTaskStatus,tickets,setTickets,resolvedTa
         const updatedTickets = tickets.filter(ticket => ticket.id !== task.id);
         setTickets(updatedTickets);
 
-        confirm("Are you sure to complete this ticket?");     
+        toast("task completed");
+        
         
   }
         
