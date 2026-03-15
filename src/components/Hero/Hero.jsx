@@ -1,6 +1,6 @@
 import React from 'react';
 import vector1 from '../../assets/vector1.png'
-const Hero = () => {
+const Hero = ({taskStatus,resolvedTask}) => {
     return (
       <>
        <div className='bg-gray-100'>
@@ -13,7 +13,7 @@ const Hero = () => {
               </span> 
                <span className='absolute flex inset-0 justify-center items-center '>
                 <p className='text-2xl font-light text-white'>In-Progress<br/>
-                  <span className='flex justify-center items-center text-4xl font-semibold text-white'>0</span>
+                  <span className='flex justify-center items-center text-4xl font-semibold text-white'>{taskStatus.length}</span>
                 </p>   
               </span>
         </div>
@@ -25,7 +25,7 @@ const Hero = () => {
               </span> 
                <span className='absolute flex inset-0 justify-center items-center '>
                 <p className='text-2xl font-light text-white'>Resolved<br/>
-                  <span className='flex justify-center items-center text-4xl font-semibold text-white'>0</span>
+                  <span className='flex justify-center items-center text-4xl font-semibold text-white'>{resolvedTask.length}</span>
                 </p>   
               </span>
         </div>

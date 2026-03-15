@@ -50,7 +50,7 @@
     "description": "System alerts arrive much later than expected. Most users receive them after 30 minutes.",
     "customer": "Urban Logistics",
     "priority": "MEDIUM PRIORITY",
-    "status": "Resolved",
+    "status": "In-Progress",
     "createdAt": "03-08-2025"
   },
   {
@@ -95,7 +95,7 @@
     "description": "Users upload new profile photos successfully. However, the old image still appears.",
     "customer": "Alpha Education",
     "priority": "LOW PRIORITY",
-    "status": "Resolved",
+    "status": "In-Progress",
     "createdAt": "03-05-2025"
   },
   {
