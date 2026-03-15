@@ -4,12 +4,14 @@ const Hero = ({taskStatus,resolvedTask}) => {
     return (
       <>
        <div className='bg-gray-100'>
-        <div className='flex w-11/12 mx-auto justify-between py-10'>
-        <div className='bg-linear-to-tl h-auto from-[#9F62F2] to-[#632EE3] rounded-md border-0 relative items-center w-fit'>  
+        <div className='flex flex-col md:flex-row gap-10 w-11/12 mx-auto justify-between py-10 '>
+        <div className='bg-linear-to-tl  from-[#9F62F2] to-[#632EE3] rounded-md 
+            border-0 relative items-center hover:scale-105 
+            transition h-auto w-full md:w-fit'>  
              
-              <span className='flex'>
-                 <img src={vector1} alt="" />
-                 <img className='transform scale-x-[-1]' src={vector1} alt="" />
+              <span className='flex '>
+                 <img className='hidden md:block' src={vector1} alt="" />
+                 <img className=' md:transform md:scale-x-[-1] ' src={vector1} alt="" />
               </span> 
                <span className='absolute flex inset-0 justify-center items-center '>
                 <p className='text-2xl font-light text-white'>In-Progress<br/>
@@ -17,11 +19,13 @@ const Hero = ({taskStatus,resolvedTask}) => {
                 </p>   
               </span>
         </div>
-        <div className='bg-linear-to-tl  h-auto from-[#00827A] to-[#54CF68] rounded-md border-0 relative items-center w-fit'>  
+        <div className='bg-linear-to-tl hover:scale-105 
+            transition h-auto from-[#00827A] to-[#54CF68] 
+            rounded-md border-0 relative items-center w-full md:w-fit'>  
              
               <span className='flex'>
-                 <img src={vector1} alt="" />
-                 <img className='transform scale-x-[-1]' src={vector1} alt="" />
+                 <img className='' src={vector1} alt="" />
+                 <img className='hidden md:block transform scale-x-[-1]' src={vector1} alt="" />
               </span> 
                <span className='absolute flex inset-0 justify-center items-center '>
                 <p className='text-2xl font-light text-white'>Resolved<br/>

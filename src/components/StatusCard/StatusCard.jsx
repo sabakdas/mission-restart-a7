@@ -28,7 +28,8 @@ const StatusCard = ({task,taskStatus,setTaskStatus,tickets,setTickets,resolvedTa
     <div className="rounded-sm shadow-sm bg-white">
      <div className=" px-5">
     <h2 className="font-semibold text-[#001931]">{task.title}</h2>
-      <button onClick={handleComplete}className="w-full bg-green-500 rounded-sm text-white font-semibold py-2 my-3">Complete</button>
+      <button onClick={handleComplete}className="hover:shadow-xl 
+            transition w-full bg-green-500 rounded-sm text-white font-semibold py-2 my-3">Complete</button>
     </div>
   </div>
     );

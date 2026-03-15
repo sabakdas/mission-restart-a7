@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='bg-black'>
                  <div className='w-11/12 mx-auto text-gray-500'>
-                <div className=' grid grid-cols-5 gap-10 py-10'>
+                <div className=' grid grid-cols-1 md:grid-cols-5 text-center md:text-left gap-10 py-10'>
                     <div className='space-y-3'>
                         <h1 className='text-xl font-semibold text-white'>CS — Ticket System</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -32,11 +32,11 @@ const Footer = () => {
                         
                     </div>
                     <div className='space-y-3'>
-                        <h1 className='text-xl font-semibold text-white'>Social Links</h1>
+                        <h1 className='text-xl font-semibold text-white '>Social Links</h1>
                         <p><FontAwesomeIcon icon={faSquareFacebook} className='text-white'/> @CS — Ticket System</p>
                         <p><FontAwesomeIcon icon={faSquareXTwitter} className='text-white'/> @CS — Ticket System</p>
                         <p><FontAwesomeIcon icon={faLinkedin} className='text-white'/> @CS — Ticket System</p>
-                        <p><FontAwesomeIcon icon={faEnvelope} className='text-white'/> support@cst.com</p>
+                        <p><FontAwesomeIcon icon={faEnvelope} className='text-white'/>   support@cst.com</p>
                     </div>
                 </div>
 

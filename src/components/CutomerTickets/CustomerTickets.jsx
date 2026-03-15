@@ -14,14 +14,11 @@ const CustomerTickets = ({ticketsPromise,taskStatus,setTaskStatus,tickets,setTic
     return (
         <>
          <div className='bg-gray-100 pb-10'>
-             <div className='w-11/12 mx-auto grid grid-cols-2 '>
-         
-             </div>
-        <div className='w-11/12 mx-auto flex  gap-20'>
-        <div className='w-[70%] '>
+        <div className='w-11/12 mx-auto flex flex-col md:flex-row gap-20'>
+        <div className='w-full md:w-[70%] '>
 
             <h1 className='pb-1 text-xl font-semibold text-gray-500'>Customer Tickets</h1>
-            <div className='grid grid-cols-2 gap-5'> 
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-5'> 
                     {tickets.length === 0 && (
                     <p className="text-gray-500 font-bold text-4xl col-span-2 flex items-center justify-center bg-white rounded-lg p-20 mt-20
                     ">All tickets resolved 🎉</p>
@@ -33,7 +30,7 @@ const CustomerTickets = ({ticketsPromise,taskStatus,setTaskStatus,tickets,setTic
              }
                 </div>
         </div>      
-                <div className='w-[31%]'>
+                <div className='w-full md:w-[31%]'>
                     <h1 className='pb-1 text-xl font-semibold text-gray-500'>Task Status</h1>
                     <div className='grid gap-5'>
                         {

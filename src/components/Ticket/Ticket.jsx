@@ -22,7 +22,8 @@ const Ticket = ({ticket,taskStatus,setTaskStatus}) => {
     return (
         
     <>
-        <div onClick={handleAddTask} className="card  bg-base-100 card-xs shadow-sm ">
+        <div onClick={handleAddTask} className="card  bg-base-100 card-xs shadow-sm hover:scale-105 
+            transition">
             <div className="card-body">
                 <div className='flex justify-between'> 
                     <h1 className='card-title'>{ticket.title}</h1>
